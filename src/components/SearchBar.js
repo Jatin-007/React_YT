@@ -15,7 +15,7 @@ class SearchBar extends Component {
 
                 Output: {this.state.term}
             </div>
-        )
+        );
     }
 }
 
