@@ -12,14 +12,14 @@ class App extends Component {
         super (props);
 
         this.state = { videos: [] };
-        
-        YTSearch({key: API_KEY, term: 'surfboards'}, (videos) =>{
-        this.setState({ videos });
-            // this.setState({vidoes: videos}); only works when key and property have same name
+    
+        YTSearch({key: API_KEY, term: 'real madrid'}, (videos) => {
+          this.setState({ videos });
         });
     }
 
     render () {
+        
         return (
             <div>
                 <SearchBar />
