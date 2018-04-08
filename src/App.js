@@ -3,7 +3,7 @@ import SearchBar from './components/SearchBar';
 import YTSearch from 'youtube-api-search'; 
 import VideoList from './components/VideoList';
 
-const API_KEY = ' AIzaSyAlMqNkwfePYB3HBm24bTRpNpBth6KC0pE '; //api key for youtube
+const API_KEY = 'AIzaSyCazvzWGihtmyg5_2usra_y7SEgusLZ3zI'; // Youtube API key
 
 class App extends Component {
 
