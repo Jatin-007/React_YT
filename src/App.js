@@ -5,6 +5,7 @@ import YTSearch from 'youtube-api-search';
 import VideoList from './components/VideoList';
 import VideoDetail from './components/VideoDetail';
 
+import styles from './styles/style.css';
 const API_KEY = 'AIzaSyCazvzWGihtmyg5_2usra_y7SEgusLZ3zI'; // Youtube API key
 
 class App extends Component {
