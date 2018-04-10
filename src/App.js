@@ -19,7 +19,7 @@ class App extends Component {
             selectedVideo: null
         };
 
-        this.videoSearch('Nissan Nismo GTR');
+        this.videoSearch('Gary Vaynerchuk');
     }
 
     videoSearch(term) {
